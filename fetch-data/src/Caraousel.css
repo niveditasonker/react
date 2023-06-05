@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+
+/* .photo-container {
+
+} */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* .rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  font-size: 2rem;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 2rem;
+} */
+
+.caraousel-container {
+  overflow: hidden;
+  background: #f1f1f1;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.carousel-item {
+  width: 100%;
+  /* height: 30rem; */
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/

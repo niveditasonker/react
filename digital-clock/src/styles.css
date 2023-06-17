@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+.clock-container{
+  text-align: center;
+  margin:auto;
+  height: 120px;
+  width: 350px;
+  background-color: black;
+  border: 10px solid grey;
+  border-radius: 5px;
+  color: white;
+  font-size: 80px;
+}

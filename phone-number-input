@@ -1,0 +1,39 @@
+
+import React, { useState } from 'react'
+
+export function PhoneNumberInput() {
+  const[phoneNumber, setphoneNumber] = useState('');
+
+  function formatNumber(event:any) {
+    let num = event.target.value.replace(/\D/g,'');
+
+    if (num.length > 10){
+      num = num.slice(0,10);
+    }       
+
+    if (num.length > 6){
+      num = `${num.slice(0,6)}-${num.slice(6)}`
+    }    
+
+    if (num.length > 3){
+      num = `(${num.slice(0,3)})${num.slice(3)}`
+    }
+
+    setphoneNumber(num);
+  }
+
+
+
+  return (
+    <input data-testid="phone-number-input" value={phoneNumber} onChange={formatNumber}/>
+  );
+}
+
+// if you want to try your code on the right panel
+// remember to export App() component like below
+
+export function App() {
+  return (<div>your app </div>)
+}
+
+// export default PhoneNumberInput;

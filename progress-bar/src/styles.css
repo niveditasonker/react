@@ -1,0 +1,17 @@
+.progress-bar-container {
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 0.5rem;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+
+.progress {
+    background-color:chocolate;
+    height: 10px;
+    border-radius: 1rem;
+    /* position: relative; */
+    transition: 1s ease;
+    transition-delay: 0.5s;
+}

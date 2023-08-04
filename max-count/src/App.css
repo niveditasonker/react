@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  display: flex;
+  border: 2px solid rgba(33, 91, 150, 0.867);
+}
+
+.timer-conatiner{
+  height: 50%;
+  width: 40%;
+  margin-top: 200px;
+  border: 2px solid #abcd;
+}

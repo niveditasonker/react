@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-export const usePagination = (list, pageSize) => {
+export const usePagination = (list, pageSize, filterOn) => {
     const [pageIdx, setPageIdx] = useState(0);
     const [paginatedList, setPaginatedList] = useState([]);
 
@@ -11,7 +11,7 @@ export const usePagination = (list, pageSize) => {
         setPaginatedList(slicedArr);
 
         console.log("====> Called usePagination useEffect");
-    }, [pageIdx, list, pageSize]);
+    }, [pageIdx, list, pageSize, filterOn]);
 
     
     const getPrevPage = ()=> {

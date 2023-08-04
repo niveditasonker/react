@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;  
+} */
+
+
+.bar-container {
+  background-color: #ccc;
+  height: 8px;
+  margin-top: 10px;
+  /* row-gap: 8px; */
+}
+
+.fill-bar{
+  background-color: plum;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition-duration: 2000ms;
+  transition-property: transform;
+  transition-timing-function: linear; 
+}
+
+.bar-contents--filled {
+  transform: scaleX(1);
+}

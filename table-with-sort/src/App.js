@@ -45,7 +45,7 @@ function App() {
     pageIndex,
     totalPages,
     paginatedList
-  ] = usePagination(books, PAGING_SIZE);
+  ] = usePagination(books, PAGING_SIZE, filterOn);
 
   useEffect(() => {
     fetchBooks();

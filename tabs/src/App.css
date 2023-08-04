@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+.tabs-list{
+  display: flex;
+}
+
+.tabs-list-item {
+  background-color: blue;
+  border: 1px solid #000;
+  border-radius: 4px;    
+}
+
+.tabs-list-item--active {
+  --active-color: yellow;
+}

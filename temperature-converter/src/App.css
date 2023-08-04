@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+
+.temp-converter {
+  display: flex;
+  flex-direction: row;
+}
+
+.temp-celsius,
+.temp-fah {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  height: 24px;
+  padding: 4px;  
+
+}
+
+.temp-column-bottom-row {
+  padding: 4px;
+  text-align: center;
+}

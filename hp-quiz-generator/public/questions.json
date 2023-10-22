@@ -1,0 +1,121 @@
+[
+      {
+        "id": 1,
+        "question": "What is the name of Harry's owl?",
+        "options": ["Hedwig", "Errol", "Crookshanks", "Fawkes"],
+        "answer": "Hedwig"
+      },
+      {
+        "id": 2,
+        "question": "Who is the Half-Blood Prince?",
+        "options": ["Severus Snape", "Remus Lupin", "Sirius Black", "Rubeus Hagrid"],
+        "answer": "Severus Snape"
+      },
+      {
+        "id": 3,
+        "question": "What is the name of the train that takes students to Hogwarts?",
+        "options": ["Hogwarts Express", "Knight Bus", "Thestrals", "The Marauder"],
+        "answer": "Hogwarts Express"
+      },
+      {
+        "id": 4,
+        "question": "What house is known for its loyalty and hard work?",
+        "options": ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"],
+        "answer": "Hufflepuff"
+      },
+      {
+        "id": 5,
+        "question": "What is the symbol of the Deathly Hallows?",
+        "options": ["Elder Wand, Invisibility Cloak, Resurrection Stone", "Firebolt, Nimbus 2000, Cleansweep", "The Marauder's Map, Time-Turner, Howler", "Sword of Gryffindor, Sorting Hat, Time-Turner"],
+        "answer": "Elder Wand, Invisibility Cloak, Resurrection Stone"
+      },
+      {
+        "id": 6,
+        "question": "Who is the headmaster of Hogwarts in the first book?",
+        "options": ["Dumbledore", "Snape", "Hagrid", "Filch"],
+        "answer": "Dumbledore"
+      },
+      {"id": 7,
+        "question": "Which professor teaches Defense Against the Dark Arts in the first book?",
+        "options": ["Quirrell", "Slughorn", "Trelawney", "Lockhart"],
+        "answer": "Quirrell"
+      },
+      {
+        "id": 8,
+        "question": "What is the name of Hagrid's three-headed dog?",
+        "options": ["Fluffy", "Fang", "Norbert", "Buckbeak"],
+        "answer": "Fluffy"
+      },
+      {
+        "id": 9,
+        "question": "What magical creatures guard the entrance to the Chamber of Secrets?",
+        "options": ["The Basilisk", "Acromantulas", "Dementors", "Thestrals"],
+        "answer": "Acromantulas"
+      },
+      {
+        "id": 10,
+        "question": "Who is known as the 'Boy Who Lived'?",
+        "options": ["Harry Potter", "Ron Weasley", "Draco Malfoy", "Neville Longbottom"],
+        "answer": "Harry Potter"
+      },
+      {
+        "id": 11,
+        "question": "What spell is used to conjure a Patronus?",
+        "options": ["Expecto Patronum", "Expelliarmus", "Avada Kedavra", "Alohomora"],
+        "answer": "Expecto Patronum"
+      },
+      {
+        "id": 12,
+        "question": "What is the Marauder's Map?",
+        "options": ["A magical map of Hogwarts", "A potion recipe", "A book of spells", "A Quidditch playbook"],
+        "answer": "A magical map of Hogwarts"
+      },
+      {
+        "id": 13,
+        "question": "What does the Imperius Curse do?",
+        "options": ["Controls the victim's actions", "Turns the victim into a frog", "Erases the victim's memory", "Invisibility"],
+        "answer": "Controls the victim's actions"
+      },
+      {
+        "id": 14,
+        "question": "Who is Harry's best friend at Hogwarts?",
+        "options": ["Ron Weasley", "Hermione Granger", "Neville Longbottom", "Luna Lovegood"],
+        "answer": "Ron Weasley"
+      },
+      {
+        "id": 15,
+        "question": "What is the name of the House Elf who serves the Malfoy family?",
+        "options": ["Dobby", "Kreacher", "Winky", "Hokey"],
+        "answer": "Dobby"
+      },
+      {
+        "id": 16,
+        "question": "What is the main mode of transportation for wizards and witches?",
+        "options": ["Apparition", "Broomsticks", "The Knight Bus", "Floo Network"],
+        "answer": "Broomsticks"
+      },
+      {
+        "id": 17,
+        "question": "Which book contains a diary that has a piece of Voldemort's soul?",
+        "options": ["Tom Riddle's Diary", "The Half-Blood Prince's Potion Book", "The Tales of Beedle the Bard", "A History of Magic"],
+        "answer": "Tom Riddle's Diary"
+      },
+      {
+        "id": 18,
+        "question": "What is the name of the Triwizard Tournament's first task?",
+        "options": ["The Hungarian Horntail", "The Blast-Ended Skrewt", "The Triwizard Maze", "The Mermaid Lake"],
+        "answer": "The Hungarian Horntail"
+      },
+      {
+        "id": 19,
+        "question": "Who was the captain of the Slytherin Quidditch team?",
+        "options": ["Marcus Flint", "Oliver Wood", "Cedric Diggory", "Cho Chang"],
+        "answer": "Marcus Flint"
+      },
+      {
+        "id": 20,
+        "question": "Which magical creature can transform into a glass or crystal goblet?",
+        "options": ["Thestral", "Niffler", "Bowtruckle", "Animagus"],
+        "answer": "Niffler"
+      }
+]

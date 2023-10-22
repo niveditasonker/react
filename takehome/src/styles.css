@@ -1,0 +1,154 @@
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: 45% 45% 10%;
+  align-items: center;
+  height: 98vh;
+  width: 98vw;
+  background-color: #fff;
+}
+
+.background-pattern{
+  width: 16vw;
+  height: 21vh;
+  top: -61px;
+  left: 7vw;
+  position: fixed;
+}
+
+.details-container {
+  width: 24vw;
+  height: 35vh;
+  left: 15vw;
+  top: -10vh;
+  position: relative;
+}
+
+.header {
+  text-transform: uppercase;
+  color: #929a9f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+
+.para {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #929a9f;
+}
+
+.image-container {
+  display: grid;
+  place-items: center;
+  height: 60vh;
+  width: 31vw;
+}
+
+.carousel-slider {
+  width: 2vw;
+  height: 35vh;
+  position: relative;
+  right: 0;
+}
+
+.dots {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  transition: all 0.4s ease;
+}
+
+.dots-number {
+  font-size: 12px;
+  color: #c4c4c4;
+  margin: 0px;
+}
+
+.dots-number.active {
+  color: #263640;
+}
+
+.dots.active {
+  width: 3px;
+  height: 14px;
+  border-radius: 10px;
+  background-color: #ff9900;
+  border-radius: 0;
+}
+
+.button {
+  width: 161px;
+  height: 48px;
+  padding: 4px, 25px, 4px, 25px;
+  border-radius: 48px;
+  gap: 16px;
+  background: #ff9900;
+  color: #fff;
+  border: 0px;
+}
+
+.button:hover{
+  background: #DE8500;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+.carousel-item-top{
+  position: absolute;
+  opacity: 0.3;
+  transform: translate(40%, -38%) scale(0.75);
+}
+
+.carousel-item-active{
+  opacity: 1;
+  z-index: 100;
+  transform: translate(-25%, 0) scale(0.75);
+}
+
+.carousel-item-bottom{
+  opacity: 0.3;
+  z-index: 50;
+  position: absolute;
+  transform: translate(25%, 40%) scale(0.75);
+}
+
+
+.play-pause {
+  width: 16px;
+  height: 16px;
+  float: right;
+}
+
+.default {
+  vertical-align: middle;
+}
+
+.hover {
+  margin-right: -10px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.carousel-slider div {
+  margin: 30px 0 30px 0px;
+  vertical-align: middle;
+}

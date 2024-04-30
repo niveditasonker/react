@@ -1,0 +1,48 @@
+
+body {
+  background-color: #59A856;
+}
+
+.cards-container {
+  display: inline-block;
+  align-items: center;
+  border: 1px solid black;
+  width: 100px;
+  height: 150px;
+  background-color: #fef0f0;
+  margin: 3px;
+  position:relative;
+}
+
+.card-suit {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 0;
+  font-size: larger;
+}
+
+.red {
+  color: red
+}
+
+.black {
+  color: black
+}
+
+.card-suit-inverted {
+  position: absolute;
+  padding-left: 0;
+  bottom:0;
+  right:0;
+  transform: rotate(180deg);
+  font-size: larger;
+}
+
+.card-value {
+  position: relative;
+  transform: translate(35%, 35%);
+  left: 25%;
+  top: 40%;
+  font-size: larger;
+}
+

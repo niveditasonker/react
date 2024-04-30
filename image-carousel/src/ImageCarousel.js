@@ -16,7 +16,7 @@ const ImageCarousel = ({ images }) => {
     <div className="images">
       {images.map((currImg, idx) => {
         return idx === current ? (
-          <div>
+          <div key={idx}>
             <img src={currImg.url} alt={currImg.title}></img>
             <span className="image-title">{currImg.title}</span>
           </div>

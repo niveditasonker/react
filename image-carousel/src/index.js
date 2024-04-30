@@ -60,14 +60,12 @@ const App = () => {
   // </section>
 
   const fetchImages = async () => {
-    // console.log("===> calling fetchImages");
     const res = await getDogs();
-    console.log("===> res:", res);
+    // console.log("===> res:", res);
     await setImages(res);
   };
 
   useEffect(() => {
-    console.log("===> calling fetchImages");
     fetchImages();
   }, []);
 
